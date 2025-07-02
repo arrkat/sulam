@@ -6,8 +6,6 @@ from collections import namedtuple
 import tkinter as tk
 from tkinter import filedialog
 
-
-# Constants
 PITCHES = ['C', 'C#', 'D', 'D#', 'E', 'F',
            'F#', 'G', 'G#', 'A', 'A#', 'B']
 
