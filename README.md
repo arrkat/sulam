@@ -14,31 +14,13 @@
 
 ---
 
-## Installation
+### Requirements
 
-### Prerequisites
-
-- Python 3.10 or newer
+- Python 3.11+
 - [Homebrew](https://brew.sh/) (optional, for macOS users)
+- `tkinter` for local file picker support (usually pre-installed on Windows/macOS)
+  - On Linux, you may need to install it via your package manager, e.g.:
+    ```bash
+    sudo apt install python3-tk
+    ```
 
-### Setup
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/yourusername/sulam.git
-   cd sulam
-Create a virtual environment (recommended)
-
-bash
-Copy
-Edit
-python3.11 -m venv sulam-env
-source sulam-env/bin/activate   # macOS/Linux
-sulam-env\Scripts\activate.bat  # Windows
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
